@@ -1,0 +1,22 @@
+.mui-select-root{
+  width: 254px;
+  height: 40px;
+  border-bottom: 1px solid #e9e9e9;
+  display: flex;
+
+}
+.mui-select-value{
+  width: 80%;
+  height: 100%;
+  cursor: pointer;
+  font-family: Roboto, 'sans-serif';
+}
+.mui-select-button{
+  width: 20%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  fill: #e9e9e9;
+  outline: none !important;
+  cursor: pointer;
+}
