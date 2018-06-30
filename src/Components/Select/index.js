@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import DefaultValueComponent from './DefaultValueComponent'
+import ValueComponent from './DefaultValueComponent'
 import ArrowIcon from './ArrowIcon';
 
 import './style.css';
 
 export default class Select extends Component{
   static defaultProps = {
-    valueComponent: DefaultValueComponent,
+    valueComponent: ValueComponent,
   }
   render(){
     const { style, value, valueComponent } = this.props;
