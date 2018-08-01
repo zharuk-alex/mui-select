@@ -5,7 +5,7 @@ const styles = {
   alignItems: 'center',
   width: '100%',
   height: '100%',
-  fontSize: '18px',
+  fontSize: '20px',
 }
 
 export default function DefaultValueComponent ({ value }) {
